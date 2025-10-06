@@ -1,0 +1,52 @@
+{
+    "collectionName": "components_org_org_infos",
+    "info": {
+        "displayName": "Org Info"
+    },
+    "options": {},
+    "attributes": {
+        "companyName": {
+            "type": "string"
+        },
+        "contactPerson": {
+            "type": "string"
+        },
+        "email": {
+            "type": "email"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "businessType": {
+            "type": "enumeration",
+            "enum": [
+                "Hospitality",
+                "Retail",
+                "Manufacturing",
+                "Services",
+                "Other"
+            ]
+        },
+        "businessTypeOther": {
+            "type": "string"
+        },
+        "surveyBy": {
+            "type": "enumeration",
+            "enum": [
+                "company",
+                "consultant",
+                "other"
+            ]
+        },
+        "department": {
+            "type": "string"
+        },
+        "departmentOther": {
+            "type": "string"
+        },
+        "test": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

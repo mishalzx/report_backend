@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_survey_scores",
+  "info": {
+    "displayName": "Score"
+  },
+  "options": {},
+  "attributes": {
+    "totalPoints": {
+      "type": "biginteger"
+    },
+    "maxPoints": {
+      "type": "biginteger"
+    },
+    "percentage": {
+      "type": "biginteger"
+    }
+  },
+  "config": {}
+}

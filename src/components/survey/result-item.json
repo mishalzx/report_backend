@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_survey_result_items",
+  "info": {
+    "displayName": "Result Item"
+  },
+  "options": {},
+  "attributes": {
+    "index": {
+      "type": "biginteger"
+    },
+    "part": {
+      "type": "string",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "selectedItems": {
+      "type": "component",
+      "component": "survey.selected-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

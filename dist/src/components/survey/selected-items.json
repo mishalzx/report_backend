@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_survey_selected_items",
+    "info": {
+        "displayName": "Selected Items"
+    },
+    "options": {},
+    "attributes": {
+        "index": {
+            "type": "biginteger"
+        },
+        "label": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

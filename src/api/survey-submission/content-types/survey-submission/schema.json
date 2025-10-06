@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "survey_submissions",
+  "info": {
+    "singularName": "survey-submission",
+    "pluralName": "survey-submissions",
+    "displayName": "Survey Submission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "externalId": {
+      "type": "uid"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "org": {
+      "type": "component",
+      "component": "org.org-info",
+      "repeatable": false
+    },
+    "results": {
+      "type": "component",
+      "component": "survey.result-item",
+      "repeatable": true
+    },
+    "score": {
+      "type": "component",
+      "component": "survey.score",
+      "repeatable": false
+    },
+    "redFlags": {
+      "type": "biginteger"
+    },
+    "completion": {
+      "type": "biginteger"
+    },
+    "timestamp": {
+      "type": "datetime"
+    },
+    "submittedAt": {
+      "type": "datetime"
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}
